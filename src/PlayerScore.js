@@ -1,10 +1,11 @@
 import React from "react";
 
 const PlayerScore = props => {
+    let scores = props.scores;
     return (
         <tr>
-            <td>{props.obj.name}</td>
-            <td>{props.obj.score}</td>
+            <td>{scores.n}</td>
+            <td className="text-danger">{scores.s}</td>
         </tr>
     )
 }

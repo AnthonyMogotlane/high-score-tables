@@ -23,3 +23,15 @@ td {
   padding: .5em;
 }
 
+.text-danger {
+  color: red;
+}
+
+.text-primary {
+  color: lightblue;
+}
+
+.country-color {
+  color: blue;
+}
+
