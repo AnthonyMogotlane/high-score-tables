@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Table from './Table';
+import Table from './HighScoreTable';
 
 const scores = [{name: "John", score: 39}, {name: "Anthony", score: 32}, {name: "Lebo", score: 60}]
 
