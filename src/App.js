@@ -1,23 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import Table from './Table';
+
+const scores = [{name: "John", score: 39}, {name: "Anthony", score: 32}, {name: "Lebo", score: 60}]
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>High Scores per Country</h1>
+      <Table country="Sounth Africa" data={scores}/>
+      <Table country="Sounth Africa" data={scores}/>
+      <Table country="Sounth Africa" data={scores}/>
     </div>
   );
 }
