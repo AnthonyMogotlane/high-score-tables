@@ -1,4 +1,5 @@
 import React from "react";
+import PlayerScore from "./PlayerScore";
 
 
 
@@ -16,10 +17,7 @@ const Table = props => {
 
                 <tbody>
                     {props.data.map((obj, i) => (
-                        <tr key={i}>
-                            <td>{obj.name}</td>
-                            <td>{obj.score}</td>
-                        </tr>
+                        <PlayerScore obj={obj} key={i}/>
                     ))}
                 </tbody>
             </table>
